@@ -1,0 +1,9 @@
+Interval_Min,Target_Time_Min,Specimen_ID,Initial_Mass_g,Measured_Mass_g,Mass_Loss_mg,Bath_Temp_C,Horn_Gap_mm,Operator_Initials,Notes
+1,30,TR1-FKM-001,1.5243,1.5239,0.40,40.1,0.50,AS,Baseline Cycle 1
+2,60,TR1-FKM-001,1.5243,1.5235,0.80,40.0,0.50,AS,Baseline Cycle 2
+3,90,TR1-FKM-001,1.5243,1.5231,1.20,39.9,0.50,AS,Baseline Cycle 3
+4,120,TR1-FKM-001,1.5243,1.5227,1.60,40.2,0.50,AS,Baseline Cycle 4
+5,150,TR1-FKM-001,1.5243,1.5223,2.00,40.0,0.50,AS,Fresh fluid charge
+6,180,TR1-FKM-001,1.5243,1.5219,2.40,40.1,0.50,AS,Baseline Cycle 6
+7,210,TR1-FKM-001,1.5243,1.5214,2.90,40.0,0.50,AS,Baseline Cycle 7
+8,240,TR1-FKM-001,1.5243,1.5209,3.40,40.0,0.50,AS,Final 240 min mark - Passed
