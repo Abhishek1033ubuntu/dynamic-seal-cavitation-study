@@ -63,3 +63,13 @@ To ensure industrial robustness, N = 1,000 stochastic iterations of the 240-minu
 2. **Polymer Dissolution:** Add Comb-PMA slowly over 3 mins. Increase to 1200 RPM for 15 mins. Add Star-Branched HSI. Increase to 1800 RPM for 30 mins until no gel particles remain.
 3. **Surface Active Phase:** Cool to 40C. Dispense De-aerator, Organo-Silicone, and PFPE. Stir at 1000 RPM for 15 mins.
 4. **Homogenization:** High-shear rotor-stator mixer at 3000 RPM for 3 mins. Vacuum de-aerate at < 10 mbar for 20 mins.
+
+## 7. International Case Study References & Web Links
+
+ASTM G32 Standard (Cavitation Erosion via Vibratory Apparatus): ASTM International Standard G32 Guidelines & Globalspec ASTM G32 Specification
+
+ASTM D3427 Standard (Air Release Properties of Lubricating Hydrocarbons): SPL Laboratories ASTM D3427 Overview & Normalab ASTM D3427 Reference
+
+Elastomer Degradation & Tribology Research: ScienceDirect Tribology International & Semantic Scholar Polymeric Elastomer Cavitation Investigation
+
+Rotary Shaft Lip Seals (ISO Standard Frameworks): ISO 6194 Rotary Shaft Lip-Type Seals
