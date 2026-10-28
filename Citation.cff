@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or computational methodology in your research or project, please cite it as below."
+title: "dynamic-seal-cavitation-study: Multi-Physics Simulation & Fluid-Seal Synergistic Mitigation of Dynamic Shaft Lip Seal Cavitation Erosion"
+abstract: "Computational framework for mitigating dynamic shaft seal cavitation erosion using viscoelastic fluid additives (AC-FLUID-OPT-500ML), 2D spatial viscoelastic FDTD shockwave solvers, and N=1,000 Monte Carlo ASTM G32 stochastic qualification."
+type: software
+authors:
+  - family-names: "Singh"
+    given-names: "Abhishek"
+    email: "abhishek1033@gmail.com"
+    orcid: "https://orcid.org/0009-0004-6913-096X"
+    alias: "Abhishek1033ubuntu"
+  - name: "Gemini (Google)"
+version: "1.0.0"
+date-released: "2026-10-29"
+repository-code: "https://github.com/Abhishek1033ubuntu/dynamic-seal-cavitation-study"
+license: "MIT"
+keywords:
+  - cavitation
+  - tribology
+  - fluid-dynamics
+  - viscoelasticity
+  - elastomer
+  - fkm
+  - seal-design
+  - monte-carlo-simulation
+  - fdtd
+  - astm-g32
+  - multi-physics
