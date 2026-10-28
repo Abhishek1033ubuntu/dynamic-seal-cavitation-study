@@ -1,0 +1,23 @@
+# AC-FLUID-OPT-500ML Fluid Additive Batch Sheet
+
+**Batch Target:** 500.0 mL (412.50 g at target density 0.825 g/cm^3)
+
+## Component Weighing Schedule
+
+| Order | Component Name | Function | Target wt% | Mass (g) | Tolerance |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| 1 | PAO 4 Base Oil | Base Carrier | 96.21% | 396.87 g | +/- 0.50 g |
+| 2 | Comb-PMA Copolymer | VI Retention | 2.20% | 9.08 g | +/- 0.05 g |
+| 3 | Star-Branched HSI | Viscoelastic Lift | 1.25% | 5.16 g | +/- 0.02 g |
+| 4 | Polyacrylate De-aerator | Air Release | 0.25% | 1.03 g | +/- 0.01 g |
+| 5 | Organo-Silicone | Surface Tension | 0.05% | 0.206 g | +/- 0.002 g |
+| 6 | PFPE Phosphate Ester | Anti-Nucleation | 0.04% | 0.165 g | +/- 0.002 g |
+| **Total** | | | **100.00%** | **412.50 g** | |
+
+## Step-by-Step Mixing Protocol
+1. Charge 396.87 g PAO 4 into jacketed reactor; heat to 60°C under 300 RPM paddle agitation.
+2. Slowly add 9.08 g Comb-PMA; ramp speed to 1200 RPM and mix for 15 minutes.
+3. Add 5.16 g Star-HSI polymer; increase speed to 1800 RPM and hold at 60°C for 30 minutes until fully dissolved.
+4. Cool batch to 40°C. Add 1.03 g De-aerator, 0.206 g Organo-Silicone, and 0.165 g PFPE Ester.
+5. Stir at 1000 RPM for 15 minutes. High-shear mix at 3000 RPM for 3 minutes.
+6. Vacuum de-aerate at < 10 mbar for 20 minutes at 40°C.
