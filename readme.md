@@ -64,12 +64,106 @@ To ensure industrial robustness, N = 1,000 stochastic iterations of the 240-minu
 3. **Surface Active Phase:** Cool to 40C. Dispense De-aerator, Organo-Silicone, and PFPE. Stir at 1000 RPM for 15 mins.
 4. **Homogenization:** High-shear rotor-stator mixer at 3000 RPM for 3 mins. Vacuum de-aerate at < 10 mbar for 20 mins.
 
-## 7. International Case Study References & Web Links
+### 7. International Case Study References & Web Links
 
-ASTM G32 Standard (Cavitation Erosion via Vibratory Apparatus): ASTM International Standard G32 Guidelines & Globalspec ASTM G32 Specification
+* **ASTM G32 Standard (Cavitation Erosion via Vibratory Apparatus):** [ASTM International Standard G32 Guidelines](https://www.hielscher.com/astm_g32-92.htm) & [Globalspec ASTM G32 Specification](https://standards.globalspec.com/std/3836015/astm-g32-09)
+* **ASTM D3427 Standard (Air Release Properties of Lubricating Hydrocarbons):** [SPL Laboratories ASTM D3427 Overview](https://spllabs.com/fuels-lubricants-tests/astm-d3427-air-release-properties/) & [Normalab ASTM D3427 Reference](https://normalab.com/en/standards/astm/astm-d3427/)
+* **Elastomer Degradation & Tribology Research:** [ScienceDirect Tribology International](https://www.sciencedirect.com/journal/tribology-international) & [Semantic Scholar Polymeric Elastomer Cavitation Investigation](https://www.semanticscholar.org/paper/Investigating-Polymeric-Elastomers-for-Cavitation-Skaja-Henderson/067b547cb336f3a03116c61be5a2716aaa1b1561)
+* **Rotary Shaft Lip Seals (ISO Standard Frameworks):** [ISO 6194 Rotary Shaft Lip-Type Seals](https://www.iso.org/standard/66384.html)
 
-ASTM D3427 Standard (Air Release Properties of Lubricating Hydrocarbons): SPL Laboratories ASTM D3427 Overview & Normalab ASTM D3427 Reference
+---
 
-Elastomer Degradation & Tribology Research: ScienceDirect Tribology International & Semantic Scholar Polymeric Elastomer Cavitation Investigation
+### 8. Complete Repository Directory Architecture
 
-Rotary Shaft Lip Seals (ISO Standard Frameworks): ISO 6194 Rotary Shaft Lip-Type Seals
+The directory layout below organizes all source code, batch recipes, simulation models, and documentation for `dynamic-seal-cavitation-study`.
+
+```text
+dynamic-seal-cavitation-study/
+│
+├── README.md                          # Primary Case Study, Problem Statement & Executive Report
+├── LICENSE                            # MIT License
+├── requirements.txt                   # Python Dependencies (numpy, scipy, pandas, matplotlib)
+├── .gitignore                         # Git Ignore File (virtual environments, cached outputs)
+│
+├── docs/                              # Project Documentation & Protocols
+│   ├── executive_summary.md           # Standalone High-Level Strategy Overview
+│   └── astm_g32_test_plan.md          # 240-Minute Physical Rig Execution Protocol
+│
+├── formulations/                      # Chemical Formulas & Batch Sheets
+│   ├── AC-FLUID-OPT-500ML.md          # 500 mL Fluid Additive Blending Sheet
+│   └── TRACK1_FKM_COMPOUND.md         # Open-Mill 10 PHR Micro-Filler FKM Rubber Recipe
+│
+├── simulations/                       # Python Source Code & Simulation Notebooks
+│   ├── rheometer_analysis.py          # Module 1: Rotary Rheometer N1 & Shear Rate Processor
+│   ├── wave_fdtd_2d.py                # Module 2: 2D Spatial Viscoelastic Wave Solver
+│   ├── monte_carlo_g32.py             # Module 3: N=1,000 Stochastic Cavitation Simulator
+│   └── dynamic_seal_cavitation.ipynb  # Interactive Google Colab / Jupyter Notebook
+│
+└── data/                              # Test Data & Logs
+    ├── logging_sheet_template.csv     # Empty CSV Template for Bench Testing
+    └── sample_rheometer_export.csv    # Sample Raw Instrument Output File
+
+```
+
+---
+
+### 9. Project Evaluation & Authorship Attribution
+
+The division of work and project credits for this case study are assigned as follows:
+
+* **System Architect & Lead Investigator:** Abhishek Singh | UIDAI: 9414 9122 9013
+* *Contribution:* Directed the strategic problem statement, established the dual-track strategy (Track 1 Cost-Controlled vs. Track 2 High-Tech), set physical constraints, defined the DOE parameters, and guided all validation criteria.
+
+
+* **AI Computational Development Partner:** Gemini (Google)
+* *Contribution:* Executed 1D/2D FDTD viscoelastic wave propagation solvers, generated the 3D response surface DOE model, created the 1,000-run Monte Carlo ASTM G32 simulation engine, and drafted the technical codebases.
+
+
+---
+
+### 10. `requirements.txt` Dependency File
+
+Create this file in the root directory to allow users to install all required Python libraries with a single command (`pip install -r requirements.txt`):
+
+```text
+numpy>=1.22.0
+scipy>=1.8.0
+pandas>=1.4.0
+matplotlib>=3.5.0
+
+```
+
+---
+
+### 11. Standard `LICENSE` (MIT)
+
+Place this file in the root folder to set open-source permissions:
+
+MIT License
+
+Copyright (c) 2026 Abhishek Singh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## ⚡ Support
+
+| Platform | Link |
+| :--- | :--- |
+| **PayPal** | [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal)](https://www.paypal.me/Abhishek1033ubuntu) |
+| **GitHub Sponsors** | [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg?logo=github)](https://github.com/sponsors/Abhishek1033ubuntu) |
