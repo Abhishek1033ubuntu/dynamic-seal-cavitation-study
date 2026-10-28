@@ -7,7 +7,9 @@
 [![Standards: ASTM G32 / D3427](https://img.shields.io/badge/Standards-ASTM%20G32%20%7C%20D3427-informational.svg)](#)
 [![Domain: Tribology & Fluid Power](https://img.shields.io/badge/Domain-Tribology%20%26%20Fluid%20Power-blueviolet.svg)](#)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Abhishek1033ubuntu)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/abhishek1033ubuntu)  
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/abhishek1033ubuntu) 
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23742253-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23742253)  
+
 
 > **Multi-Physics Simulation & Fluid-Seal Synergistic Mitigation of Dynamic Shaft Lip Seal Cavitation Erosion**
 
