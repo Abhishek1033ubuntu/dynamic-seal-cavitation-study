@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Jupyter / IPynb
+.ipynb_checkpoints
+
+# IDEs & System
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Generated Output Data
+*.png
+*.pdf
+*.log
