@@ -26,7 +26,8 @@
 **Status:** Validated & Qualified (100.0% Monte Carlo Confidence)  
 
 ### Development Authors
-* **Lead Investigator & Systems Engineer:** User 
+* **Lead Investigator & Systems Engineer:**
+Abhishek Singh | UIDAI: 9414 9122 9013
 * **AI Computational Development Author:** Gemini (Gemini 3.1 Pro, Google)
 
 ---
