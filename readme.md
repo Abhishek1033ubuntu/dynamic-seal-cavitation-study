@@ -16,19 +16,15 @@
 
 ---
 
-## Authors & Credits
+### Development Authors & Credits
 * **System Architect & Lead Investigator:** Abhishek Singh | UIDAI: 9414 9122 9013
-* **AI Computational Development Partner:** Gemini (Google)
+
+* **AI Computational Development Author:** Gemini (Gemini 3.1 Pro, Google)
 
 ---
 
 **Domain:** Fluid Power Systems, Tribology, & Materials Engineering  
 **Status:** Validated & Qualified (100.0% Monte Carlo Confidence)  
-
-### Development Authors
-* **Lead Investigator & Systems Engineer:**
-Abhishek Singh | UIDAI: 9414 9122 9013
-* **AI Computational Development Author:** Gemini (Gemini 3.1 Pro, Google)
 
 ---
 
@@ -141,48 +137,8 @@ The division of work and project credits for this case study are assigned as fol
 * **AI Computational Development Partner:** Gemini (Google)
 * *Contribution:* Executed 1D/2D FDTD viscoelastic wave propagation solvers, generated the 3D response surface DOE model, created the 1,000-run Monte Carlo ASTM G32 simulation engine, and drafted the technical codebases.
 
-
 ---
 
-### 10. `requirements.txt` Dependency File
-
-Create this file in the root directory to allow users to install all required Python libraries with a single command (`pip install -r requirements.txt`):
-
-```text
-numpy>=1.22.0
-scipy>=1.8.0
-pandas>=1.4.0
-matplotlib>=3.5.0
-
-```
-
----
-
-### 11. Standard `LICENSE` (MIT)
-
-Place this file in the root folder to set open-source permissions:
-
-MIT License
-
-Copyright (c) 2026 Abhishek Singh
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ## ⚡ Support
 
